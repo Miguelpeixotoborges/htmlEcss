@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color:#D6D58E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principais{
+    text-align: center;
+    font-size: 3em;
+    background-color:#9FC131;
+    color: #042940;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+.subtitulos{
+    text-align: center;
+    color: #03131d;
+    background-color:#005C53;
+    border-radius: 10px;
+}
+.titulos2{
+    text-align: center;
+    background-color: #DBF227;
+    border-radius: 10px;
+}
+.destaques1{
+    font-style: italic;
+    font-weight: bolder;
+}
+.destaques2{
+        font-style: italic;
+    font-weight: bolder;
+}

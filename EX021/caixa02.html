@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgb(129, 129, 129);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #6fe2f1;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        nav {
+            background-color: #87acb1;
+            padding: 4px;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(102, 35, 35);
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(111, 226, 241);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        #noticias {
+            background-color: #87acb1;
+            text-indent: 1em;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        article > aside {
+            background-color: #87acb1;
+        }
+
+        footer {
+            background-color: #87acb1;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        #assuntos {
+            background-color: #87acb1;
+            text-indent: 1em;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 6px;
+        }
+
+        #noticias > article > p {
+            padding-left: 10px;
+        }
+
+        #assuntos > p {
+            padding-left: 10px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+        #bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px auto; /* top/bottom 10px, left/right auto */
+        background-color: white;
+        border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+     <header>
+        <h1>RJ primeira edição!</h1>
+        <nav>
+            <a href="">Menu </a>
+            <a href="">Loja </a>
+            <a href="">Noticias</a> 
+            <a href="">Tendencias</a> 
+            <a href="">Conta</a> 
+        </nav>
+     </header>
+
+     <main>
+        <section id="assuntos">
+            <h2>Esportes Politica Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae amet ab temporibus exercitationem ex harum eveniet expedita explicabo dolores incidunt, iusto quis aperiam! Molestias distinctio molestiae libero magnam temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis hic modi eius quos dicta. Possimus tenetur, doloremque magni obcaecati, similique perspiciatis eius pariatur aperiam quia assumenda ipsam. Quidem, ratione laudantium.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit odit blanditiis deserunt harum maiores quaerat impedit dolore error dolorem nobis culpa ad ratione eos, dolor provident libero, nulla nisi adipisci.
+                </p>
+                <aside>
+                </aside>
+            </article>
+        </section>
+     </main>
+
+     <footer>
+        <p>Desenvolvendo por Miguel Peixoto Borges</p>
+     </footer>
+     <div id="bola"></div>
+</body>
+</html>

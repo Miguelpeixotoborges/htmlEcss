@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Rencana";
+    src: url("Rencana.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: "Rencana", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align: center;
+    font-size: 2em;
+}
